@@ -1,0 +1,183 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: hsl(0, 0%, 20%);
+        color: #eee;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    .container {
+        flex-grow: 1;
+    }
+
+    h1>a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 24px;
+        background-color: black;
+    }
+
+    .navmenu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        column-gap: 70px;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: #eee;
+    }
+
+    a:visited {
+        color: #eee;
+    }
+
+
+    .homepage {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 40px;
+        flex-basis: 50%;
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        flex-basis: 50%;
+        padding: 80px 60px;
+    }
+
+    .avatar {
+        display: block;
+        width: 400px;
+        height: auto;
+    }
+
+    .profile-text {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        padding-inline: 3rem
+    }
+
+    .footer-link:visited {
+        color: yellow;
+    }
+
+    .footer {
+        text-align: center;
+        background-color: black;
+        padding-block: 2rem;
+    }
+
+    .footer-link {
+        color: yellow;
+    }
+
+
+
+
+    .about {
+        text-align: center;
+    }
+
+    .info {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .skills-wrapper {
+        margin-top: 64px;
+    }
+
+    .skills {
+        display: flex;
+        list-style: none;
+        gap: 24px;
+        justify-content: center;
+    }
+
+    .skill {
+        background-color: white;
+        color: black;
+        padding: 16px 24px;
+        font-size: 24px;
+        font-weight: 600;
+        opacity: 1;
+    }
+
+
+
+
+    .project {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        gap: 12px;
+    }
+
+    .projectimage {
+        display: block;
+        width: 600px;
+        height: auto;
+    }
+
+    .projectname {
+        font-size: 32px;
+    }
+
+    .projectdesp {
+        padding: 60px 80px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        background-color: #eeeeee9b;
+        width: max-content;
+        padding: 2rem;
+        margin: 0 auto;
+        color: black;
+        border-radius: 12px;
+    }
+
+    label {
+        display: inline-block;
+        width: 150px;
+        margin-bottom: 12px;
+    }
+
+    .form input {
+        padding: 6px;
+        display: inline-block;
+        border-radius: 5px;
+    }
